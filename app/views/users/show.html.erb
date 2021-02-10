@@ -12,8 +12,8 @@
       <% end %>
     </li>
   <% end %>
-
-  <%= link_to "Edit Profil", edit_user_registration_path %>
+  <%= link_to 'Add a Super Hero!', new_super_hero_path, class:'btn btn-success' %>
+  <%= link_to "Edit Profil", edit_user_registration_path, class:'btn btn-info' %>
 
   <% if !current_user.company.nil? %>
     <%= link_to 'Create Super Hero',  new_super_hero_path %>
