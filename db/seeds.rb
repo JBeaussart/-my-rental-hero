@@ -8,7 +8,7 @@ SuperHero.destroy_all
 User.destroy_all
 
 puts "Creating User..."
-jerem = User.create!( first_name: 'jeremy', last_name: 'beaussart', email: 'jerem@gmail.fr', password: '123456')
+jerem = User.create!( first_name: 'jeremy', last_name: 'beaussart', email: 'jerem@gmail.fr', password: '123456', company: 'gg')
 quentin = User.create!( first_name: 'quentin', last_name: 'bonnafet', email: 'quentin@gmail.fr', password: '123456')
 thomas = User.create!( first_name: 'thomas', last_name: 'pozzobon', email: 'thomas@gmail.fr', password: '123456')
 puts "Creating SuperHeros..."
